@@ -1,0 +1,10 @@
+.env
+.env.example
+node_modules/
+go.mod
+go.sum
+server.exe
+package-lock.json
+package.json
+tsconfig.json
+app.json
