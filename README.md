@@ -24,12 +24,3 @@ CalAI is a simple assessment app with a Go backend and an Expo React Native fron
 - Validates AI output to allow only approved CalML tags.
 - Repairs common output issues so the client can render questions reliably.
 
-### Backend config
-
-Create `backend/.env` with values such as:
-
-```env
-GEMINI_API_KEY=your_api_key_here
-PORT=8080
-SESSION_SECRET=your_secret
-GEMINI_MODEL=gemini-2.5-flash
